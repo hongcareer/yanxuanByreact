@@ -9,3 +9,17 @@
 #使用redux的异步中间件，处理异步任务
 ##applyMiddleware
 ##redux-thunk处理redux的异步程序，因redux不执行异步函数，
+##React-Redux:组件与redux管理的状态进行交互的中间介
+#Bscroll
+##容器和滚动元素等宽的解决办法：容器和滚动元素都添加flex
+#react的跨域
+##package.json中加入
+    "proxy": {
+        "/api": {
+          "target": "http://m.you.163.com",
+          "changeOrigin":true,
+          "pathRewrite": {
+            "^/api": ""
+          }
+        }
+      }

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Provider from 'redux'
+import {Provider} from 'react-redux';
 import {Route,HashRouter,Switch} from 'react-router-dom';
 import store from './redux/store'
 import Home from './components/home/home';
