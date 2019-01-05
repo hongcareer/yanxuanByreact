@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="http://at.alicdn.com/t/font_973177_qxv1dpvv4tk.css">
+    <link rel="shortcut icon" href="./favicon.ico">
     <title>网易严选</title>
     <script src="https://as.alipayobjects.com/g/component/fastclick/1.0.6/fastclick.js"></script>
     <script>
@@ -15,6 +16,16 @@
       }
       if(!window.Promise) {
         document.writeln('<script src="https://as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+      };
+
+      //rem自适应
+      fnResize();
+      window.onresize = function () {
+        fnResize();
+      }
+      function fnResize() {
+        var deviceWidth = document.documentElement.clientWidth || window.innerWidth;
+        document.documentElement.style.fontSize = (deviceWidth / 10) + 'px';
       }
     </script>
   </head>

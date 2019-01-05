@@ -8,6 +8,7 @@ class HomeNav extends Component{
           <div className="home-header-top">
             <a href="javascript:;" className="left"></a>
             <a className="right">登录</a>
+
           </div>
           <div className="home-header-bottom">
             <ul className="partShow" >
