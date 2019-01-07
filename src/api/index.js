@@ -1,5 +1,5 @@
 import ajax from './ajax';
-const BASE = '/api'
+const BASE = '/api';
 //home页
 export const reqHomeData = () => ajax('/homedata')
 export const reqTotalNumber =() =>ajax(BASE+`/xhr/search/getTotalNumbersOfProducts.json`,'POST')

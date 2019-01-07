@@ -19,10 +19,7 @@
       };
 
       //rem自适应
-      fnResize();
-      window.onresize = function () {
-        fnResize();
-      }
+      fnResize()
       function fnResize() {
         var deviceWidth = document.documentElement.clientWidth || window.innerWidth;
         document.documentElement.style.fontSize = (deviceWidth / 10) + 'px';

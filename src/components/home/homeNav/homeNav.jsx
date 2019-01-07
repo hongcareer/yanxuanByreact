@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
-import BScroll from 'better-scroll'
+import BScroll from 'better-scroll';
+import { Link } from 'react-router-dom'
 import Search from '../../search/sea'
 
 import './homeNav.less';
@@ -28,7 +29,7 @@ class HomeNav extends Component{
           <div className="home-header-top">
             <a href="javascript:;" className="left"></a>
             <Search />
-            <a className="right">登录</a>
+            <Link className="right" to={'/profile'}>登录</Link>
 
           </div>
           <div className="home-header-bottom">

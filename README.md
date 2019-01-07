@@ -25,6 +25,14 @@
       }
 # 异步action，使用同步的action将请求回来的数据传递给reducer进行状态更新
 # dispatch函数分发状态数据
-## 状态数据使用同步的创建action类型的函数进行传递
+## 状态数据使用同步的创建action类型的函数传递给reducer
+## reducer通过相应的action类型进行状态数据的修改
 ## combineReducers,将redux的状态进行统一的暴露
+## react-redux中的connect和provider中的store管理的状态state有关联
+## connect将状态数据传递给相应的ui组件，ui组件通过props接受
+# redux使用3.0的版本
+## 异步中间件出现问题后，重新下载依赖吧
+## 只有使用了Link的组件才有history属性
+## 图片使用require引入
+## npm config get prefix---查看npm的缓存，下载失败的时候，再次下载的时候会有错误日志，清除缓存即可
 
